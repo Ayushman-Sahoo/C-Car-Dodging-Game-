@@ -1,7 +1,9 @@
 # 🚗 Car Dodging Game (C++ + SFML)
 
-A simple and fun Car Dodging Game developed using **C++** and **SFML**.  
+A simple and fun **Car Dodging Game** developed using **C++** and **SFML**.  
 The player controls a white car and must dodge incoming enemy cars while the game speed gradually increases over time.
+
+✅ Developed and tested on Ubuntu Linux using SFML.
 
 ---
 
@@ -20,16 +22,39 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 
 ---
 
+# 📸 Game Preview
+
+## Starting Screen
+![Starting Screen](Starting.png)
+
+## Start Menu
+![Start Menu](Start.png)
+
+## Gameplay
+![Gameplay](Paused.png)
+
+## Restart Screen
+![Restart Screen](Restart.png)
+
+## Accident / Game Over Screen
+![Game Over](When%20Accident%20it%20Restart.png)
+
+---
+
 # 🖥 Technologies Used
 
-- C++
-- SFML (Simple and Fast Multimedia Library)
+- **C++**
+- **SFML**
+  - Graphics
+  - Audio
+  - Window Management
+  - Event Handling
 
 ---
 
 # 📂 Project Structure
 
-```bash
+```text
 Car Dodging Game/
 │
 ├── Assets/
@@ -42,6 +67,12 @@ Car Dodging Game/
 │   ├── crash.wav
 │   └── DejaVuSans-Bold.ttf
 │
+├── Starting.png
+├── Start.png
+├── Paused.png
+├── Restart.png
+├── When Accident it Restart.png
+│
 ├── main.cpp
 ├── highscore.txt
 └── README.md
@@ -53,8 +84,8 @@ Car Dodging Game/
 
 | Key | Action |
 |------|---------|
-| Left Arrow | Move Left |
-| Right Arrow | Move Right |
+| ⬅ Left Arrow | Move Left |
+| ➡ Right Arrow | Move Right |
 | P | Pause Game |
 | R | Restart Game |
 | E | Easy Mode |
@@ -65,17 +96,23 @@ Car Dodging Game/
 
 # 🎯 Difficulty Modes
 
-## Easy
+## 🟢 Easy
 - Lower speed
 - Slow enemy spawning
+- Beginner friendly
 
-## Medium
+---
+
+## 🟡 Medium
 - Moderate speed
-- Faster enemy spawning
+- Balanced gameplay
 
-## Hard
+---
+
+## 🔴 Hard
 - High speed
 - Very fast enemy spawning
+- Challenging gameplay
 
 ---
 
@@ -87,99 +124,133 @@ The game includes:
 - Lane-based movement
 - Collision detection
 - Dynamic speed increase
+- Score tracking system
+- Pause and restart system
 - Delta-time based movement for smooth gameplay
 
 ---
 
-# 🔊 Audio
+# 🔊 Audio Features
 
-The game uses SFML Audio module for crash sound effects.
-
----
-
-# 🛠 How to Run
-
-## Requirements
-
-- C++ Compiler (g++)
-- SFML Library
+The game uses SFML Audio module for:
+- Crash sound effects
+- Gameplay audio handling
 
 ---
 
-## Step 1: Install SFML
+# ⚙ Requirements
 
-Download SFML from:
+Before running the project, install:
 
-https://www.sfml-dev.org/download.php
-
-Install the version matching your compiler.
+- Ubuntu Linux
+- g++
+- SFML 2.5 or above
 
 ---
 
-## Step 2: Open Terminal / Git Bash
+# 🖥 Running the Game on Ubuntu
 
-Navigate to the project folder:
+## 🔹 Step 1: Install SFML
+
+Open terminal and run:
 
 ```bash
-cd /f/"Car Dodging Game"
+sudo apt update
+sudo apt install libsfml-dev
 ```
 
 ---
 
-## Step 3: Compile the Game
-
-Run the following command:
+## 🔹 Step 2: Clone Repository
 
 ```bash
-g++ main.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+git clone https://github.com/Ayushman-Sahoo/Car-Dodging-Game.git
 ```
 
 ---
 
-## Step 4: Run the Game
+## 🔹 Step 3: Go Inside Project Folder
+
+```bash
+cd "Car Dodging Game"
+```
+
+---
+
+## 🔹 Step 4: Compile the Game
+
+```bash
+g++ main.cpp -o game \
+-lsfml-graphics \
+-lsfml-window \
+-lsfml-system \
+-lsfml-audio
+```
+
+---
+
+## 🔹 Step 5: Run the Game
 
 ```bash
 ./game
 ```
 
-or run:
-
-```bash
-game.exe
-```
-
 ---
 
-# Important Note
+# ❗ Important Note
 
-Make sure the `Assets` folder remains inside the project directory, otherwise textures, fonts, and sounds will not load properly.
-
----
-
-# 📸 Screenshots
-
-Add gameplay screenshots here later.
+Make sure the `Assets` folder remains inside the project directory.  
+Otherwise textures, fonts, and sounds will not load properly.
 
 ---
 
 # 🚀 Future Improvements
 
-- Main menu UI
-- High score saving system
-- More enemy vehicles
-- Background music
-- Mobile version
-- Multiplayer support
-- Better animations
+Possible future updates:
+
+- 🌌 Better background animations
+- 🎵 Background music
+- 🚗 More enemy vehicle types
+- 🏆 Better leaderboard system
+- 📱 Mobile version
+- 🎮 Multiplayer support
+- ✨ Improved visual effects
+
+---
+
+# 🐛 Known Issues
+
+- Requires proper SFML installation
+- Fixed game window size
+- Audio may not work if SFML Audio is missing
 
 ---
 
 # 👨‍💻 Author
 
-Ayushman Sahoo
+## Ayushman Sahoo
+
+GitHub:  
+https://github.com/Ayushman-Sahoo
 
 ---
 
-# ⭐ GitHub Repository
+# ⭐ Support
 
-If you like this project, give it a star ⭐
+If you liked this project:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🚀 Share it with others
+
+---
+
+# 📜 Disclaimer
+
+This project was developed and tested on **Ubuntu Linux** using SFML.
+
+If you make any improvements or modifications, please first test them properly on your own system before updating or sharing changes.
+
+For any issues or suggestions, feel free to contact:
+
+📧 Email: ayushmansahoo648@gmail.com
