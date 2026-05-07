@@ -25,7 +25,7 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 # 📸 Game Preview
 
 ## 🎮 Select Difficulty Screen
-![Select Difficulty](Select%20Difficulty%201st%20it%20wiil%20show.png)
+![Select Difficulty](Start.png)
 
 ---
 
@@ -75,7 +75,7 @@ C-Car-Dodging-Game-/
 │   ├── crash.wav
 │   └── DejaVuSans-Bold.ttf
 │
-├── Select Difficulty 1st it wiil show.png
+├── Start.png
 ├── Starting.png
 ├── Paused.png
 ├── Restart.png
@@ -83,6 +83,7 @@ C-Car-Dodging-Game-/
 │
 ├── main.cpp
 ├── highscore.txt
+├── game
 └── README.md
 ```
 
