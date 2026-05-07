@@ -3,7 +3,7 @@
 A simple and fun **Car Dodging Game** developed using **C++** and **SFML**.  
 The player controls a white car and must dodge incoming enemy cars while the game speed gradually increases over time.
 
-✅ Developed and tested on Ubuntu Linux using SFML.
+✅ Developed and tested on **Ubuntu Linux** using SFML.
 
 ---
 
@@ -24,20 +24,28 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 
 # 📸 Game Preview
 
-## Starting Screen
+## 🎬 Starting Screen
 ![Starting Screen](Starting.png)
 
-## Start Menu
+---
+
+## 🎮 Difficulty Selection Menu
 ![Start Menu](Start.png)
 
-## Gameplay
+---
+
+## 🚗 Gameplay
 ![Gameplay](Paused.png)
 
-## Restart Screen
-![Restart Screen](Restart.png)
+---
 
-## Accident / Game Over Screen
-![Game Over](When%20Accident%20it%20Restart.png)
+## 💥 Game Over / Accident Screen
+![Game Over](When%20Accident%20It%20Restart.png)
+
+---
+
+## 🔁 Restart Screen
+![Restart Screen](Restart.png)
 
 ---
 
@@ -71,7 +79,7 @@ Car Dodging Game/
 ├── Start.png
 ├── Paused.png
 ├── Restart.png
-├── When Accident it Restart.png
+├── When Accident It Restart.png
 │
 ├── main.cpp
 ├── highscore.txt
@@ -99,13 +107,13 @@ Car Dodging Game/
 ## 🟢 Easy
 - Lower speed
 - Slow enemy spawning
-- Beginner friendly
+- Beginner friendly gameplay
 
 ---
 
 ## 🟡 Medium
 - Moderate speed
-- Balanced gameplay
+- Balanced gameplay experience
 
 ---
 
@@ -126,15 +134,15 @@ The game includes:
 - Dynamic speed increase
 - Score tracking system
 - Pause and restart system
-- Delta-time based movement for smooth gameplay
+- Smooth movement using delta time
 
 ---
 
 # 🔊 Audio Features
 
-The game uses SFML Audio module for:
+The game uses the SFML Audio module for:
 - Crash sound effects
-- Gameplay audio handling
+- Gameplay sound handling
 
 ---
 
@@ -211,10 +219,10 @@ Possible future updates:
 - 🌌 Better background animations
 - 🎵 Background music
 - 🚗 More enemy vehicle types
-- 🏆 Better leaderboard system
+- 🏆 Improved leaderboard system
 - 📱 Mobile version
 - 🎮 Multiplayer support
-- ✨ Improved visual effects
+- ✨ Better visual effects
 
 ---
 
@@ -249,7 +257,7 @@ If you liked this project:
 
 This project was developed and tested on **Ubuntu Linux** using SFML.
 
-If you make any improvements or modifications, please first test them properly on your own system before updating or sharing changes.
+If you make any improvements or modifications, please first test them properly on your own system before sharing or updating the project.
 
 For any issues or suggestions, feel free to contact:
 
