@@ -24,13 +24,13 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 
 # 📸 Game Preview
 
-## 🎮 Difficulty Selection Screen
-![Difficulty Selection](Starting.png)
+## 🎮 Select Difficulty Screen
+![Select Difficulty](Select%20Difficulty%201st%20it%20wiil%20show.png)
 
 ---
 
 ## 🚗 Gameplay Screen
-![Gameplay](Start.png)
+![Gameplay](Starting.png)
 
 ---
 
@@ -63,7 +63,7 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 # 📂 Project Structure
 
 ```text
-Car Dodging Game/
+C-Car-Dodging-Game-/
 │
 ├── Assets/
 │   ├── WhiteCar.png
@@ -75,8 +75,8 @@ Car Dodging Game/
 │   ├── crash.wav
 │   └── DejaVuSans-Bold.ttf
 │
+├── Select Difficulty 1st it wiil show.png
 ├── Starting.png
-├── Start.png
 ├── Paused.png
 ├── Restart.png
 ├── When Accident It Restart.png
