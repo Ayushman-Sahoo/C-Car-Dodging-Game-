@@ -24,18 +24,18 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 
 # 📸 Game Preview
 
-## 🎬 Starting Screen
-![Starting Screen](Starting.png)
+## 🎮 Difficulty Selection Screen
+![Difficulty Selection](Starting.png)
+
+---
+
+## 🚗 Gameplay Screen
+![Gameplay](Start.png)
 
 ---
 
 ## ⏸ Paused Screen
 ![Paused Screen](Paused.png)
-
----
-
-## 🎮 Gameplay
-![Gameplay](Start.png)
 
 ---
 
@@ -172,7 +172,7 @@ sudo apt install libsfml-dev
 ## 🔹 Step 2: Clone Repository
 
 ```bash
-git clone https://github.com/Ayushman-Sahoo/Car-Dodging-Game.git
+git clone https://github.com/Ayushman-Sahoo/C-Car-Dodging-Game-.git
 ```
 
 ---
@@ -180,7 +180,7 @@ git clone https://github.com/Ayushman-Sahoo/Car-Dodging-Game.git
 ## 🔹 Step 3: Go Inside Project Folder
 
 ```bash
-cd "Car Dodging Game"
+cd C-Car-Dodging-Game-
 ```
 
 ---
