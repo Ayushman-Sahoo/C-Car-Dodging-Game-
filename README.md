@@ -29,13 +29,13 @@ The player controls a white car and must dodge incoming enemy cars while the gam
 
 ---
 
-## 🎮 Difficulty Selection Menu
-![Start Menu](Start.png)
+## ⏸ Paused Screen
+![Paused Screen](Paused.png)
 
 ---
 
-## 🚗 Gameplay
-![Gameplay](Paused.png)
+## 🎮 Gameplay
+![Gameplay](Start.png)
 
 ---
 
